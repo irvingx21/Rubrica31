@@ -39,8 +39,7 @@ public class Calculadora {
            total=val1/val2; 
         }
         
-        
-        System.out.printf(" el resltado de la suma es :%d",total);
+        System.out.printf(" el resltado de la operacion es :%d",total);
         
     }
     
