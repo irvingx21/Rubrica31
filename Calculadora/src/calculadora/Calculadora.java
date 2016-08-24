@@ -18,13 +18,27 @@ public class Calculadora {
      */
     public static void main(String[] args) {
         Scanner entrada=new Scanner(System.in);
+        int total = 0;
         System.out.println("hola Github");
-        System.out.println("ngrese primer valor");
+        System.out.println("ingrese primer valor");
         int val1=entrada.nextInt();
-        System.out.println("ngrese segundo valor");
+        System.out.println("ingrese segundo valor");
         int val2=entrada.nextInt();
-       
-        int total=val1+val2;
+        System.out.println("ingrese el tipo de operacion \n 1)Suma \n 2)Resta \n 3)Multiplicacion \n 4)Divicion");
+        int opcion=entrada.nextInt();
+        if (opcion==1) {
+            total=val1+val2;
+        }
+        if (opcion==2) {
+           total=val1-val2; 
+        }
+        if (opcion==3) {
+           total=val1*val2; 
+        }
+        if (opcion==4) {
+           total=val1/val2; 
+        }
+        
         
         System.out.printf(" el resltado de la suma es :%d",total);
         
