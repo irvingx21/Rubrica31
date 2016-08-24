@@ -23,6 +23,10 @@ public class Calculadora {
         int val1=entrada.nextInt();
         System.out.println("ngrese segundo valor");
         int val2=entrada.nextInt();
+       
+        int total=val1+val2;
+        
+        System.out.printf(" el resltado de la suma es :%d",total);
         
     }
     
